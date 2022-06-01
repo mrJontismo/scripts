@@ -2,4 +2,4 @@
 
 # Quick and dirty script to open pdf directory in fzf and open selected file in zathura
 pdfpath="$HOME/Documents"
-cd $pdfpath && fzf | xargs zathura
+cd "$pdfpath" && fzf | xargs zathura
